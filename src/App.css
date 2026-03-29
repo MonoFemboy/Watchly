@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #141414;
+  color: #e5e5e5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.motion-wrapper {
+  padding: 5.5rem 4vw 3rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .motion-wrapper {
+    padding: 5rem 4vw 2rem;
+  }
+}

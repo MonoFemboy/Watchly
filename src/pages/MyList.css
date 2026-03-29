@@ -1,0 +1,26 @@
+.my-list-page {
+  min-height: 60vh;
+  padding: 0 0 3rem;
+}
+
+.my-list-heading {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+  color: #fff;
+}
+
+.my-list-empty {
+  color: #b3b3b3;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 32rem;
+}
+
+.my-list-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 0.5rem;
+  align-items: flex-start;
+}
